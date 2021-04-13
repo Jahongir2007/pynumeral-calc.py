@@ -20,14 +20,14 @@ print("3. Multiply")
 print("4. Division")
 
 # enter number:
-inp_num = input("Enter number: ")
+inp_num = int(input("Enter number: "))
 ```
 We write the appropriate condition for the menu:
 ```python
 # add:
 if inp_num == 1:
-  a = input("First number")
-  b = input("Second number")
+  a = int(input("First number: "))
+  b = int(input("Second number: "))
   num.add(
   
     num = a,
@@ -37,8 +37,8 @@ if inp_num == 1:
   
  # subtract:
 elif inp_num == 2:
-  a = input("First number")
-  b = input("Second number")
+  a = int(input("First number: "))
+  b = int(input("Second number: "))
   num.sub(
   
     num = a,
@@ -48,8 +48,8 @@ elif inp_num == 2:
   
 # multiply:
 elif inp_num == 3:
-  a = input("First number")
-  b = input("Second number")
+  a = int(input("First number: "))
+  b = int(input("Second number: "))
   num.mul(
   
     num = a,
@@ -59,8 +59,8 @@ elif inp_num == 3:
   
   # division:
 elif inp_num == 1:
-  a = input("First number")
-  b = input("Second number")
+  a = int(input("First number: "))
+  b = int(input("Second number: "))
   num.div(
   
     num = a,
@@ -83,12 +83,12 @@ print("3. Multiply")
 print("4. Division")
 
 # enter number:
-inp_num = input("Enter number: ")
+inp_num = int(input("Enter number: "))
 
 # add:
 if inp_num == 1:
-  a = input("First number")
-  b = input("Second number")
+  a = int(input("First number: "))
+  b = int(input("Second number: "))
   num.add(
   
     num = a,
@@ -98,8 +98,8 @@ if inp_num == 1:
   
  # subtract:
 elif inp_num == 2:
-  a = input("First number")
-  b = input("Second number")
+  a = int(input("First number: "))
+  b = int(input("Second number: "))
   num.sub(
   
     num = a,
@@ -109,8 +109,8 @@ elif inp_num == 2:
   
 # multiply:
 elif inp_num == 3:
-  a = input("First number")
-  b = input("Second number")
+  a = int(input("First number: "))
+  b = int(input("Second number: "))
   num.mul(
   
     num = a,
@@ -119,9 +119,9 @@ elif inp_num == 3:
   )
   
   # division:
-elif inp_num == 1:
-  a = input("First number")
-  b = input("Second number")
+elif inp_num == 4:
+  a = int(input("First number: "))
+  b = int(input("Second number: "))
   num.div(
   
     num = a,
