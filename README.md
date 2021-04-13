@@ -47,7 +47,7 @@ elif inp_num == 2:
   )
   
 # multiply:
-if inp_num == 3:
+elif inp_num == 3:
   a = input("First number")
   b = input("Second number")
   num.mul(
@@ -58,7 +58,7 @@ if inp_num == 3:
   )
   
   # division:
-if inp_num == 1:
+elif inp_num == 1:
   a = input("First number")
   b = input("Second number")
   num.div(
