@@ -1,61 +1,61 @@
+# upload pynumeral:
 import pynumeral
 import os
 
+# save pynumeral function in num variable
 num = pynumeral
 
+# menu:
 print("1. Add")
 print("2. Subtract")
 print("3. Multiply")
 print("4. Division")
 
-code = int(input("Enter the number: "))
+# enter number:
+inp_num = int(input("Enter number: "))
 
-if code == 1:
+# add:
+if inp_num == 1:
+  a = int(input("First number: "))
+  b = int(input("Second number: "))
+  num.add(
+  
+    num = a,
+    set = b
 
-    numone = int(input("First number: "))
-    numtwo = int(input("Second number: "))
+  )
+  
+ # subtract:
+elif inp_num == 2:
+  a = int(input("First number: "))
+  b = int(input("Second number: "))
+  num.sub(
+  
+    num = a,
+    set = b
 
-    num.add(
+  )
+  
+# multiply:
+elif inp_num == 3:
+  a = int(input("First number: "))
+  b = int(input("Second number: "))
+  num.mul(
+  
+    num = a,
+    set = b
 
-        num = numone,
-        set = numtwo
+  )
+  
+  # division:
+elif inp_num == 4:
+  a = int(input("First number: "))
+  b = int(input("Second number: "))
+  num.div(
+  
+    num = a,
+    set = b
 
-    )
-
-elif code == 2:
-
-    numone = int(input("First number: "))
-    numtwo = int(input("Second number: "))
-
-    num.sub(
-
-        num = numone,
-        set = numtwo
-        
-    )
-
-elif code == 3:
-
-    numone = int(input("First number: "))
-    numtwo = int(input("Second number: "))
-
-    num.mul(
-
-        num = numone,
-        set = numtwo
-        
-    )
-
-if code == 4:
-
-    numone = int(input("First number: "))
-    numtwo = int(input("Second number: "))
-
-    num.div(
-
-        num = numone,
-        set = numtwo
-        
-    )
+  )
 
 os.system("pause")
