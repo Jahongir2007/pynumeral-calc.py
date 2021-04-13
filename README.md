@@ -69,7 +69,7 @@ elif inp_num == 1:
   )
 ```
 ### All:
-```python#
+```python
 # upload pynumeral:
 import pynumeral
 
